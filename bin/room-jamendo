@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+const app = require('../server')
+const port = process.env.PORT
+app.listen(port, () => console.log(`[room-jamendo]server start to listen on port "${port}"`))
